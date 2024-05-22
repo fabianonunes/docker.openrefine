@@ -2,7 +2,7 @@
 FROM eclipse-temurin:17-jre
 SHELL [ "/bin/bash", "-exc" ]
 
-ARG REFINE_VERSION=3.7.7
+ARG REFINE_VERSION=3.8.1
 
 WORKDIR /opt/openrefine
 RUN <<EOT
